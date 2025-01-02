@@ -39,7 +39,7 @@ if ($result->num_rows > 0) {
         echo '<td>' . $row['adresse'] . '</td>';
         echo '<td>
                 <a href="modifier.php?id=' . $row['id'] . '" class="btn btn-warning">Modifier</a>
-                <a href="supprimer.php?id=' . $row['id'] . '" class="btn btn-danger">Modifier</a>
+                <a href="supprimer.php?id=' . $row['id'] . '" class="btn btn-danger">Supprimer</a>
               </td>';
         echo '</tr>';
     }
